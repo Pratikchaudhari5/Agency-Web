@@ -10,7 +10,7 @@ export default function Pricing() {
       {
         label: "Basic Package",
         title: "Starter",
-        price: "$2,499",
+        price: "$500",
         subPrice: "/one-time",
         description:
           "Perfect for small businesses looking to establish their digital presence",
@@ -26,7 +26,7 @@ export default function Pricing() {
       {
         label: "Most Popular",
         title: "Professional",
-        price: "$4,999",
+        price: "$1,000",
         subPrice: "/one-time",
         description:
           "Ideal for growing businesses that need advanced functionality",
@@ -34,9 +34,6 @@ export default function Pricing() {
         features: [
           "Everything in Starter",
           "Advanced Animations",
-          "CMS Integration",
-          "E-commerce Ready",
-          "Analytics Setup",
           "Unlimited Revisions",
           "90 Days Support",
           "Performance Optimization",
@@ -65,7 +62,7 @@ export default function Pricing() {
       {
         label: "Basic Package",
         title: "Starter",
-        price: "$2,499",
+        price: "$700",
         subPrice: "/one-time",
         description:
           "Perfect for small businesses looking to establish their digital presence",
@@ -82,7 +79,7 @@ export default function Pricing() {
       {
         label: "Most Popular",
         title: "Professional",
-        price: "$4,999",
+        price: "$1,200",
         subPrice: "/one-time",
         description:
           "Ideal for growing businesses that need advanced functionality",
@@ -91,9 +88,6 @@ export default function Pricing() {
           "Everything in Starter",
           "Advanced Animations",
           "Custom UI/UX Design",
-          "CMS Integration",
-          "E-commerce Ready",
-          "Analytics Setup",
           "Unlimited Revisions",
           "90 Days Support",
           "Performance Optimization",
@@ -122,7 +116,8 @@ export default function Pricing() {
   };
 
   return (
-    <section id="pricing" className="py-25 px-4" style={{ backgroundColor: "#000000" }}>
+    <section id="pricing" className="py-25
+     px-4" style={{ backgroundColor: "#000000" }}>
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-white">
         Pricing Plans
       </h1>

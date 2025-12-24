@@ -7,19 +7,19 @@ const Services = () => {
   const cardData = [
     {
       title: "Custom Web Development",
-      desc: "Websites and apps designed to turn visitors into loyal customers.",
+      desc: "Websites and web apps built to convert visitors into leads, users, and customers.",
       icon: <FaLaptopCode />,
       color: "#10B981", // green
     },
     {
       title: "Responsive Design",
-      desc: "Seamless experience on desktop, tablet, and mobile devices.",
+      desc: "Your product looks and works perfectly on desktop, tablet, and mobile — without compromise.",
       icon: <FaMobileAlt />,
       color: "#F59E0B", // orange
     },
     {
       title: "Performance Optimization",
-      desc: "Fast load times, smooth interactions, and high-performance apps.",
+      desc: "Fast load times, smooth interactions, and clean code that users love.",
       icon: <FaRocket />,
       color: "#3B82F6", // blue
     },
@@ -47,14 +47,15 @@ const Services = () => {
       <section id ="services" className="w-full py-16 bg-black text-white font-body">
         {/* Section Title */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Services
+          What we do
         </h2>
         <h2 className="text-3xl md:text-4xl font-heading text-center mb-4">
-          ALL-IN-ONE SOLUTION
-        </h2>
+An All-in-One Web Partner for Growing Businesses        </h2>
         <p className="text-slate-300 text-center max-w-3xl mx-auto mb-12 px-2">
-          Tailored web solutions that perfectly align with your business needs — built with cutting-edge technologies to deliver real results.
-        </p>
+We don’t just “make websites.”
+We solve business problems through design, code, and clarity.
+
+Every project is custom-built to match your goals, audience, and growth stage.        </p>
 
         {/* Marquee Container */}
         <div

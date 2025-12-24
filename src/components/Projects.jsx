@@ -88,10 +88,12 @@ export default function Projects() {
 
       <section id="projects" className="py-16 bg-black text-white">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Our Latest Creations
+            Selected Work <br />
         </h2>
         <p className="text-slate-400 text-center max-w-3xl mx-auto mb-8 px-2">
           Explore projects by category — each crafted with care, style, and intention.
+          <br />
+          Every project starts with why — not just what.
         </p>
 
         {/* Category Buttons */}

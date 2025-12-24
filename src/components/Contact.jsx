@@ -65,17 +65,13 @@ export default function Contact() {
             <div className="mt-6 sm:mt-8 w-full">
               <div className="bg-[#0F121A]/90 backdrop-blur-md rounded-2xl p-5 sm:p-6 border border-[#1E2233]">
                 <p className="text-gray-300 text-sm sm:text-base mb-3">
-                  Tell us about your project and let's create something
-                  extraordinary.
+                  Tell us about your project.
                 </p>
                 <p className="text-gray-400 text-xs sm:text-sm leading-6">
-                  One flexible agency for your entire company to share knowledge,
-                  ship projects, and collaborate.
-                  <br />
-                  Enterprise features to securely manage user access and security.
-                  <br />
-                  Dedicated support to help you build the best plan for your
-                  company.
+              Whether you’re launching something new or improving what you already have, <br />
+              we’ll help you move faster and smarter. <br />
+
+One flexible agency to design, build, and scale your digital presence, <br /> without the complexity of managing multiple vendors.
                 </p>
               </div>
             </div>
@@ -132,9 +128,9 @@ export default function Contact() {
                     onChange={(e) => setService(e.target.value)}
                   >
                     <option value="">Services you are interested in</option>
-                    <option value="Mobile App Development">
+                    {/* <option value="Mobile App Development">
                       Mobile App Development
-                    </option>
+                    </option> */}
                     <option value="Web Development">Web Development</option>
                     <option value="UI/UX Design">UI/UX Design</option>
                   </select>

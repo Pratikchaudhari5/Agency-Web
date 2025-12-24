@@ -11,7 +11,7 @@ export default function Footer() {
           
           {/* Left: Brand + description */}
           <div className="flex flex-col gap-4 md:gap-2">
-            <span className="text-white text-lg font-bold">InfiniteStudioX</span>
+            <span className="text-white text-lg font-bold">Scaleform Studio</span>
             <p className="text-white/70 text-sm max-w-md">
               One flexible agency for your entire company to share knowledge, ship projects, and collaborate. Dedicated support and enterprise features to manage user access and build the best plan for your company.
             </p>
@@ -75,7 +75,7 @@ export default function Footer() {
 
         {/* Bottom: Copyright */}
         <p className="mt-8 text-center text-white/70 text-sm">
-          © PratikChaudahri 2025. All rights reserved.
+          © ScaleForm Studio 2025. All rights reserved.
         </p>
       </footer>
     </>

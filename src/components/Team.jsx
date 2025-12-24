@@ -2,19 +2,19 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Alice Johnson",
+    name: "Pratik Chaudhari",
     role: "Founder & CEO",
-    location: "Based in New York, USA",
-    twitter: "https://x.com/alicejohnson",
-    description: "Leading the vision and strategy",
+    location: "Based in India",
+    twitter: "https://x.com/PratikCDev",
+    description: "Bridging design, development, and business goals",
     img: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=200",
   },
   
   {
-    name: "Clara Lee",
+    name: "Shruti Dakhore",
     role: "Lead Designer",
-    location: "Based in London, UK",
-    twitter: "https://x.com/claralee",
+    location: "Based in India",
+    twitter: "https://x.com/Shraaa03",
     description: "Designing user-first experiences",
     img: "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?q=80&w=200",
   },

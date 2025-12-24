@@ -52,7 +52,7 @@ export default function Hero() {
       >
         {/* Logo */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
-          <span className="text-white text-lg font-bold">InfiniteStudioX</span>
+          <span className="text-white text-lg font-bold">Scaleform Studio</span>
         </div>
 
         {/* Desktop Links */}
@@ -146,13 +146,10 @@ export default function Hero() {
       {/* Hero Content with extra top padding */}
       <div className="pt-40 flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl text-center font-bold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#748298] text-transparent bg-clip-text">
-          B2B SaaS Experts & Digital Innovation Partners
-        </h1>
+We Build Websites That Grow Your Business        </h1>
 
         <p className="text-slate-300 md:text-base max-md:px-2 text-center max-w-2xl mt-3">
-          Welcome to our world of scalable solutions, user-first design, and cutting-edge technology.
-          We build SaaS platforms, AI tools, and digital solutions that drive growth and maximize impact.
-        </p>
+We help founders, starters, and B2B companies turn unclear ideas into high-converting websites & digital products. Using user-first design and psychology-backed UX.        </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-8 text-sm">
           {/* Replace this button */}
@@ -160,7 +157,8 @@ export default function Hero() {
   to="/book"
   className="px-6 py-2.5 bg-green-600 hover:bg-green-700 transition rounded-full text-center"
 >
-  Book Demo →
+ Book a Free Strategy Call →
+
 </Link>
 
 
@@ -168,11 +166,11 @@ export default function Hero() {
             onClick={() => scrollToSection("#projects")}
             className="px-6 py-2.5 border border-green-600 text-green-600 hover:bg-green-600 hover:text-white transition rounded-full text-center"
           >
-            View Portfolio
+            View Our Work
           </button>
         </div>
 
-        <p className="text-xs text-slate-400 mt-3 text-center">No talks only work.</p>
+        <p className="text-xs text-slate-400 mt-3 text-center">Not just pretty screens. Real business growth.</p>
       </div>
     </section>
   );
