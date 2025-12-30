@@ -50,10 +50,25 @@ export default function Hero() {
             : "bg-black"
         }`}
       >
-        {/* Logo */}
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
-          <span className="text-white text-lg font-bold">Scaleform Studio</span>
-        </div>
+      {/* Logo */}
+<div className="flex items-center">
+  <div className="flex flex-col items-center leading-none">
+    <img
+      src="/src/assets/scalev3.svg"
+      alt="Scaleform Studio"
+      className="h-10 w-auto object-contain"
+    />
+    <span className="text-white text-[10px] tracking-widest mt-1">
+      SCALEFORM
+    </span>
+    <span className="text-gray-400 text-[8px] tracking-[0.3em]">
+      STUDIO
+    </span>
+  </div>
+</div>
+
+
+
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-6">
