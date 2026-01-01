@@ -161,7 +161,8 @@ export default function Hero() {
       {/* Hero Content with extra top padding */}
       <div className="pt-40 flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl text-center font-bold max-w-4xl mt-5 bg-gradient-to-r from-white to-[#748298] text-transparent bg-clip-text">
-We Build Websites That Grow Your Business        </h1>
+We Build Websites  <br /> <span className="bg-gradient-to-r from-green-400 to-green-600 text-transparent bg-clip-text">
+That Grow Your Business               </span>       </h1>
 
         <p className="text-slate-300 md:text-base max-md:px-2 text-center max-w-2xl mt-3">
 We help founders, starters, and B2B companies turn unclear ideas into high-converting websites & digital products. Using user-first design and psychology-backed UX.        </p>
