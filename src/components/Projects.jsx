@@ -121,14 +121,6 @@ export default function Projects() {
     },
     { 
       category: "Client Work",
-      title: "Beyond Dream", 
-      url: "https://www.beyonddream.in/",
-      desc: "Real estate platform with virtual tours",
-      img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-      tag: "Real Estate"
-    },
-    { 
-      category: "Client Work",
       title: "Let's Grow Esports", 
       url: "http://letsgrowesports.com/",
       desc: "Gaming community platform with live stats",

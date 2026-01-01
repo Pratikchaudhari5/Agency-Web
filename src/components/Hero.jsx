@@ -54,7 +54,7 @@ export default function Hero() {
 <div className="flex items-center">
   <div className="flex flex-col items-center leading-none">
     <img
-      src="/src/assets/scalev3.svg"
+      src="/scalev3.svg"
       alt="Scaleform Studio"
       className="h-10 w-auto object-contain"
     />
@@ -66,7 +66,7 @@ export default function Hero() {
     </span>
   </div>
 </div>
-
+{/* hi */}
 
 
 
