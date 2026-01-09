@@ -1,7 +1,7 @@
 import React from "react";
-import pratikImg from "../assets/pratik.png";
-import shrutiImg from "../assets/shruti.png";
-
+import pratikImg from "../assets/pratikpro.jpeg";
+import shrutiImg from "../assets/shrutipro.jpg";
+import { Link } from "react-router-dom";
 export default function Team() {
   const teamMembers = [
     {
@@ -139,9 +139,12 @@ export default function Team() {
               </p>
             </div>
 
-            <button className="px-8 py-4 bg-green-600 hover:bg-green-500 rounded-full font-semibold transition-all hover:scale-105">
-              Let’s Talk
-            </button>
+            <Link to="/book">
+  <button className="px-8 py-4 bg-green-600 hover:bg-green-500 rounded-full font-semibold transition-all hover:scale-105">
+    Let’s Talk
+  </button>
+</Link>
+
           </div>
         </div>
       </div>

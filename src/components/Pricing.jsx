@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Pricing() {
   const [activeCategory, setActiveCategory] = useState("Development Only");
 
@@ -232,22 +232,25 @@ export default function Pricing() {
       </div>
 
       {/* Button */}
-      <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
-        <span>Schedule Free Consultation</span>
-        <svg
-          className="w-5 h-5 group-hover:translate-x-1 transition-transform"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
-      </button>
+     <Link to="/book">
+  <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
+    <span>Schedule Free Consultation</span>
+    <svg
+      className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </button>
+</Link>
+
 
     </div>
   </div>

@@ -81,7 +81,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://x.com/PratikCDev"
+                  href="https://www.linkedin.com/in/pratik-chaudhari-886b71237/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-900 hover:bg-green-600 border border-gray-800 hover:border-green-600 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
@@ -96,7 +96,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="mailto:pratikchaudhari5321@gmail.com"
+                  href="mailto:scaleformstudio@gmail.com"
                   className="w-10 h-10 rounded-full bg-gray-900 hover:bg-green-600 border border-gray-800 hover:border-green-600 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
                   aria-label="Email"
                 >

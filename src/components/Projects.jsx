@@ -1,12 +1,12 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Projects() {
   const categories = [
     "All Projects",
     "UI/UX Design",
     "B2B SaaS",
     "Client Work",
-    "AI & Automation",
+    // "AI & Automation",
   ];
 
   const allProjects = [
@@ -27,14 +27,14 @@ export default function Projects() {
       img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80",
       tag: "SaaS"
     },
-    { 
-      category: "B2B SaaS",
-      title: "Voice Filter App", 
-      url: "https://www.speakclearly.xyz/",
-      desc: "Real-time voice enhancement technology",
-      img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&q=80",
-      tag: "AI Tool"
-    },
+    // { 
+    //   category: "B2B SaaS",
+    //   title: "Voice Filter App", 
+    //   url: "https://www.speakclearly.xyz/",
+    //   desc: "Real-time voice enhancement technology",
+    //   img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&q=80",
+    //   tag: "AI Tool"
+    // },
     { 
       category: "B2B SaaS",
       title: "TaskFlow", 
@@ -101,24 +101,24 @@ export default function Projects() {
       img: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
       tag: "Social"
     },
-    { 
-      category: "UI/UX Design",
-      title: "Portfolio", 
-      url: "https://harish-ten.vercel.app/",
-      desc: "Founder's personal brand showcase",
-      img: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=800&q=80",
-      tag: "Portfolio"
-    },
+    // { 
+    //   category: "UI/UX Design",
+    //   title: "Portfolio", 
+    //   url: "https://harish-ten.vercel.app/",
+    //   desc: "Founder's personal brand showcase",
+    //   img: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=800&q=80",
+    //   tag: "Portfolio"
+    // },
     
     // Freelance & Client Partnerships
-    { 
-      category: "Client Work",
-      title: "Fast & Fab", 
-      url: "https://fastandfab.in/",
-      desc: "Fashion e-commerce with trendy aesthetics",
-      img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
-      tag: "E-commerce"
-    },
+    // { 
+    //   category: "Client Work",
+    //   title: "Fast & Fab", 
+    //   url: "https://fastandfab.in/",
+    //   desc: "Fashion e-commerce with trendy aesthetics",
+    //   img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
+    //   tag: "E-commerce"
+    // },
     { 
       category: "Client Work",
       title: "Let's Grow Esports", 
@@ -137,30 +137,30 @@ export default function Projects() {
     },
     
     // AI, Automation & Smart Tools
-    { 
-      category: "AI & Automation",
-      title: "Random Meme Generator", 
-      url: "https://mohammadharish52.github.io/randommemegenrator/",
-      desc: "AI-powered meme creation tool",
-      img: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
-      tag: "Fun Tool"
-    },
-    { 
-      category: "AI & Automation",
-      title: "Image Processor", 
-      url: "https://imageprocessor-psi.vercel.app/",
-      desc: "Batch image optimization and editing",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
-      tag: "Automation"
-    },
-    { 
-      category: "AI & Automation",
-      title: "Speak Clearly", 
-      url: "https://www.speakclearly.xyz/",
-      desc: "Speech enhancement with AI filtering",
-      img: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=800&q=80",
-      tag: "Voice AI"
-    },
+    // { 
+    //   category: "AI & Automation",
+    //   title: "Random Meme Generator", 
+    //   url: "https://mohammadharish52.github.io/randommemegenrator/",
+    //   desc: "AI-powered meme creation tool",
+    //   img: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80",
+    //   tag: "Fun Tool"
+    // },
+    // { 
+    //   category: "AI & Automation",
+    //   title: "Image Processor", 
+    //   url: "https://imageprocessor-psi.vercel.app/",
+    //   desc: "Batch image optimization and editing",
+    //   img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
+    //   tag: "Automation"
+    // },
+    // { 
+    //   category: "AI & Automation",
+    //   title: "Speak Clearly", 
+    //   url: "https://www.speakclearly.xyz/",
+    //   desc: "Speech enhancement with AI filtering",
+    //   img: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=800&q=80",
+    //   tag: "Voice AI"
+    // },
   ];
 
   const [activeCategory, setActiveCategory] = useState("All Projects");
@@ -272,12 +272,25 @@ export default function Projects() {
           <p className="text-gray-400 text-lg mb-6">
             Want to see your project here? Let's make it happen.
           </p>
-          <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold text-lg transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
-            <span>Start Your Project</span>
-            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </button>
+          <Link to="/book">
+  <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold text-lg transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
+    <span>Start Your Project</span>
+    <svg
+      className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </button>
+</Link>
+
         </div>
       </div>
     </section>

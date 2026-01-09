@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Services() {
   const [stopScroll, setStopScroll] = useState(false);
 
@@ -199,12 +199,12 @@ export default function Services() {
                       </p>
 
                       {/* Learn More Link */}
-                      <button className="inline-flex items-center gap-2 text-green-500 font-medium group-hover:gap-3 transition-all self-start">
+                      {/* <button className="inline-flex items-center gap-2 text-green-500 font-medium group-hover:gap-3 transition-all self-start">
                         <span className="text-sm">Learn more</span>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
-                      </button>
+                      </button> */}
                     </div>
 
                     {/* Animated Corner Accent */}
@@ -225,12 +225,25 @@ export default function Services() {
             <p className="text-gray-400 text-lg mb-6">
               Need something custom? We build solutions tailored to your exact needs.
             </p>
-            <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold text-lg transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
-              <span>Discuss Your Project</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </button>
+           <Link to="/book">
+  <button className="inline-flex items-center gap-3 px-8 py-4 bg-green-600 hover:bg-green-500 text-white rounded-full font-semibold text-lg transition-all hover:shadow-2xl hover:shadow-green-600/50 transform hover:scale-105 group">
+    <span>Discuss Your Project</span>
+    <svg
+      className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M17 8l4 4m0 0l-4 4m4-4H3"
+      />
+    </svg>
+  </button>
+</Link>
+
           </div>
         </div>
       </section>
