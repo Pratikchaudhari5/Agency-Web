@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop"; // ✅ added
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
@@ -7,11 +8,12 @@ import Pricing from "./components/Pricing";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Book from "./components/Book"; // <-- new booking page
+import Book from "./components/Book";
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* ✅ this fixes scroll issue */}
       <Routes>
         {/* Main landing page */}
         <Route
