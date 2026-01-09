@@ -112,6 +112,13 @@ export default function Services() {
         .service-card:hover::before {
           opacity: 1;
         }
+        @media (max-width: 768px) {
+  /* Remove side fade shadows on mobile */
+  #services > div > div > div > .absolute.left-0,
+  #services > div > div > div > .absolute.right-0 {
+    display: none !important;
+  }
+}
       `}</style>
 
       <section id="services" className="relative py-24 bg-black text-white overflow-hidden">
